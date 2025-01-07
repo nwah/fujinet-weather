@@ -202,7 +202,7 @@ end;
 
 procedure GetTimezone;
 begin
-    GetJsonKeyValue('timezone_offset', tmp);
+    GetJsonKeyValue('timezone', tmp);
     timezone := StrToInt(tmp);    
 end;
 
